@@ -9,12 +9,14 @@ iwr -useb get.scoop.sh | iex
 
 scoop install git sudo neofetch neovim wget
 scoop bucket add extras
-sudo choco install firefox qutebrowser spotify discord microsoft-teams steam-client vlc itunes epicgameslauncher blitz.gg -y
+scoop install spotify
+sudo choco install firefox qutebrowser discord microsoft-teams steam-client vlc itunes epicgameslauncher blitz.gg -y
 
 mkdir ~/Applicaties
 cd ~/Applicaties
 wget https://github.com/ThizIsJay/W10setup/raw/stable/OfficeSetup.exe
+wget https://eactest1.cachefly.net/Protected/expiretime=1639166957/db0dc081680e00e9c5fc8958c0d0a86b/shared/publisher/vmware/VMware-workstation-full-16.0.0-16894299.exe
 
 echo "Te installeren EXE's bevinden in ~/Applicaties klik een knop om er na toe te gaan"
 userinit
-explorer ~/Applicaties
+explorer .
